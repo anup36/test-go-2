@@ -12,7 +12,7 @@ jobs:
 
     - name: Run unit tests
       run: |
-        make test
+        make clean test-ci
       env:
         CC_TEST_REPORTER_ID: c07d92cf3a68c455f24d3c4905360c372c24ffc8e77dc28f98dbf18dec07ec1a
     - name: Fmt and Lint
